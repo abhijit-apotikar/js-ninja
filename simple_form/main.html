@@ -1,8 +1,35 @@
 <html>
-	<head>
-		<title>Simple Form</title>
-	</head>
-	<body>
-		<p>This is your simpe form!</p>
-	</body>
+<head>
+	<title>Simple Form</title>
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div style="height:100vh; background-color: yellow; display:flex;flex-direction: column; justify-content: space-around;">
+		<div style="display:flex; background-color: red; align-items: center; justify-content: center; flex-direction: column; height: 30vh; gap: 15px;">
+			<div style="display:flex; height: 18px; background-color: green; align-items: center; padding: 2px;">
+				<p style="margin: 10px; font-weight: bold; width: 50px;">Name:</p>
+				<input />
+			</div>
+			<div style="display:flex; height: 18px; background-color: green; align-items: center; padding: 2px;">
+				<p style="margin: 10px; font-weight: bold; width: 50px;">DOB:</p>
+				<input />
+			</div>
+			<div style="display:flex; height: 18px; background-color: green; align-items: center; padding: 2px;">
+				<p style="margin: 10px; font-weight: bold;width: 50px;">email:</p>
+				<input />
+			</div>
+			<div style="margin:10px">
+				<button>Submit</button>
+				<button>Cancel</button>
+			</div>
+		</div>
+	</div>
+	
+</body>
 </html>
